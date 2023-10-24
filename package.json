@@ -1,0 +1,26 @@
+{
+  "name": "cdn-backup",
+  "version": "1.0.0",
+  "description": "CDN and SPACE backup easly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olavomello/cdn-backup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olavomello/cdn-backup/issues"
+  },
+  "homepage": "https://github.com/olavomello/cdn-backup#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.435.0",
+    "aws-sdk": "^2.1480.0",
+    "dotenv": "^16.3.1",
+    "jimp": "^0.22.10"
+  }
+}
